@@ -12,4 +12,14 @@ const {
 
 //users:
 
-router.route('/users');
+router.route('/').get(getUser).post(createUser);
+
+// get put delete users by userId:
+
+router.route('/:userId').get(getSingleUser).put(updateUser).delete(deleteUser);
+
+//post and delete friend by firnedId:
+
+router.route('/:userId/friends/:friendId').post(addFriend).delete(deleteFriend);
+
+module.exports = router;
