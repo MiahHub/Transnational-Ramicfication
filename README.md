@@ -75,4 +75,4 @@ Jeremiah Chesley, released codebase for class, inter alia.
 
 This application is licensed under the https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT
 
-## Video Walk-Thru: https://drive.google.com/file/d/1JbpBgTo2bw9M-aWgGpIhCdkxerxgjB0U/view
+# Video Walk-Thru: https://drive.google.com/file/d/1JbpBgTo2bw9M-aWgGpIhCdkxerxgjB0U/view
