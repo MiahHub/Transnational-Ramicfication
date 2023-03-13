@@ -11,6 +11,6 @@ app.use(routes);
 
 db.once('open', () => {
   app.listen(PORT, () => {
-    console.log(`The API server is running on port ${PORT}!`);
+    console.log(`The API server is running on port ${PORT}`);
   });
 });

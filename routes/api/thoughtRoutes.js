@@ -18,11 +18,13 @@ router
   .route('/:thoughtId')
   .get(getOneThought)
   .put(updateThought)
-  .delete(deleteThought);
+  .delete(deleteThought)
+  .delete(deleteReaction);
 
 //by reaction
 router.route('/:thoughtId/reactions').post(createReaction);
 
+router.route('/:thoughtId').get(getOneThought);
 //react id
 router.route('/:thoughtId/reactions/reactionId').delete(deleteReaction);
 
