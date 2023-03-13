@@ -30,10 +30,10 @@ router
 //by reaction
 router.route('/:thoughtId/reactions').post(createReaction);
 //get reaction
-router.route('/:thoughtId/reactions/reactionId').get(getOneReaction);
+router.route('/:thoughtId/reactions/:reactionId').get(getOneReaction);
 
 router.route('/:thoughtId').get(getOneThought);
 //react id
-router.route('/:thoughtId/reactions/reactionId').delete(deleteReaction);
+router.route('/:thoughtId/reactions/:reactionId').delete(deleteReaction);
 
 module.exports = router;
